@@ -1,0 +1,70 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+*.gradle
+*.gradle.kts
+
+# IDEs and Tools
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.launch
+.project
+.classpath
+.settings/
+.factorypath
+
+# Logs
+logs/
+*.log
+*.log.*
+/*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package Managers
+node_modules/
+
+# Misc
+*.swp
+*.bak
+*.tmp
+*.pid
+*.seed
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+
+# Cache and generated
+*.cache
+*.tmp
+*.gz
+*.gzip
+*.tar.gz
+*.zip
+*.out
+*.pdf
+*.exe
