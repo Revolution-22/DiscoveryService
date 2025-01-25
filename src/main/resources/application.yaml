@@ -2,7 +2,15 @@ server:
   port: 8761
 
 spring:
+  config:
+    import: vault://secret/discovery-service
+  cloud:
+    vault:
+      host: vault
+      port: 8200
+      scheme: http
+      token: root
+      kv:
+        enabled: true
   application:
     name: discovery-service
-  config:
-    import: "configserver:http://config-service:8888"
